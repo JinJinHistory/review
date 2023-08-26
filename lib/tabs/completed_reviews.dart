@@ -6,7 +6,7 @@ class CompletedReviewsTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text('Completed Reviews Tab Content', style: TextStyle(color: Colors.white)),
+      child: Text('completed_reviews', style: TextStyle(color: Colors.white)),
     );
   }
 }

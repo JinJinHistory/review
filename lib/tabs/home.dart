@@ -139,10 +139,10 @@ class SquareBox extends StatelessWidget {
         // 클릭 이벤트 처리
         print('Box clicked: $text');
 
-        // 리뷰생성 탭으로 이동
-        if (text == '새로운 리뷰 생성') {
-          Navigator.of(context).push(MaterialPageRoute(builder: (context) => const NavigationView(currentPageIndex: 1)));
-        }
+        // // 리뷰생성 탭으로 이동
+        // if (text == '새로운 리뷰 생성') {
+        //   Navigator.of(context).push(MaterialPageRoute(builder: (context) => const NavigationView(currentPageIndex: 1)));
+        // }
       },
       child: Container(
         width: (MediaQuery.of(context).size.width / 2) - 22.5,
