@@ -23,7 +23,8 @@ Engine • revision b20183e040
 Tools • Dart 3.1.0 • DevTools 2.25.0
 
 ## project run debug
-
+- web all
+flutter run
 - web
 flutter run -d Windows
 flutter run -d Chrome
@@ -32,3 +33,5 @@ flutter run -d Edge
 flutter run -d android
 - ios
 flutter run -d ios
+- hot reload(web save)
+flutter pub global run webdev serve
